@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="signup-box">
+        <h1>Sign Up</h1>
+        <h4>It only takes a minute to sign up</h4>
+        <!--Text Inputs-->
+        <label for="fname">First name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Peter">
+        <label for="lname">Last name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Griffin">
+        <!--Email input-->
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="petergriffin@gmail.com" required>
+        <!--Dropdown menu-->
+        <label for="country">Country</label>
+        <select id="country" name="country">
+            <option value="australia">Ghana</option>
+            <option value="canada">Canada</option>
+            <option value="usa">Japan</option>
+        </select>
+        <!--Password input-->
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <label for="cpassword">Confirm Password:</label>
+        <input type="cpassword" name="cpassword" id="cpassword">
+        <!--Submit button-->
+        <button type="submit">Sign Up</button>
+        <!--Paragraph-->
+        <p>By clicking the signup button you have agreed to our <a href="">Terms and conditions</a> and <a href="">Policy  privacy</a></p>
+    </div>
+    <p class="para-2">Already have an account? <a href="login.html">Login</a></p>
+</body>
+</html>

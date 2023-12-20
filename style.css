@@ -1,0 +1,70 @@
+body{
+    background-color: aqua;
+    font-family: 'Roboto', sans-serif;
+}
+
+.signup-box{
+    background-color: white;
+    width: 370px;
+    height: 570px;
+    margin: auto;
+    padding-left: 15px;
+}
+
+h1{
+    text-align:center ;
+    padding-top:20px ;
+}
+
+h4{
+    text-align: center;
+}
+
+input, select{
+    width: 90%;
+    padding:7px;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+label{
+    display: flex;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
+
+button[type="submit"]{
+    width: 90%;
+    margin: 10px;
+    padding: 7px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+button[type="submit"]:hover{
+    background-color: black;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.para-2{
+    text-align: center;
+    color: white;
+}
+
+.para-2 a{
+    color: black;
+}
+
+.login-box{
+    width: 320px;
+    height: 250px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    padding-left: 10px;
+}
